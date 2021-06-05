@@ -1,0 +1,52 @@
+[
+  {
+    "name": "layout",
+    "path": "/",
+    "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\layout\\\\index.vue",
+    "children": [
+      {
+        "name": "home",
+        "path": "",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\home\\\\index.vue",
+        "_name": "_c76100ac"
+      },
+      {
+        "name": "login",
+        "path": "/login",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\login\\\\index.vue",
+        "_name": "_44cce67c"
+      },
+      {
+        "name": "register",
+        "path": "/register",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\login\\\\index.vue",
+        "_name": "_44cce67c"
+      },
+      {
+        "name": "profile",
+        "path": "/profile/:username",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\profile\\\\index.vue",
+        "_name": "_9fcd537c"
+      },
+      {
+        "name": "settings",
+        "path": "/settings",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\settings\\\\index.vue",
+        "_name": "_6c05ae66"
+      },
+      {
+        "name": "editor",
+        "path": "/editor/:slug?",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\editor\\\\index.vue",
+        "_name": "_600eca9c"
+      },
+      {
+        "name": "article",
+        "path": "/article/:slug",
+        "component": "D:\\\\code\\\\nuxt-realworld\\\\pages\\\\article\\\\index.vue",
+        "_name": "_55c5f0d5"
+      }
+    ],
+    "_name": "_6a552e82"
+  }
+]
