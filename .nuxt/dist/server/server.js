@@ -283,9 +283,13 @@ const Axios = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
 
   Axios.interceptors.response.use(function (response) {
     // 对响应数据做点什么
-    return response.data;
+    console.log(999);
+    console.log(response);
+    return response.data || response;
   }, function (error) {
-    // 对响应错误做点什么
+    console.log(888);
+    console.log(error); // 对响应错误做点什么
+
     let errors = error.response.data.errors;
     let errorText = '';
     Object.keys(errors).forEach(key => {
