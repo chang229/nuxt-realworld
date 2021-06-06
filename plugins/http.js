@@ -26,11 +26,11 @@ export default ({ store }) => {
 	Axios.interceptors.response.use(
 		function(response) {
 			// 对响应数据做点什么
-			return response.data || response;
+			return response && response.data ? response.data : response;
 		},
 		function(error) {
 			// 对响应错误做点什么
-			let errors = error.response.data.errors;
+			let errors = error && error.response ? error.response.data.errors : [];
 			let errorText = '';
 			Object.keys(errors).forEach((key) => {
 				errorText = `${errorText}${errorText ? '，' : ''}${key}`;
