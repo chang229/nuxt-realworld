@@ -25,8 +25,6 @@ export default ({ store }) => {
 	// 添加响应拦截器
 	Axios.interceptors.response.use(
 		function(response) {
-            console.log('999');
-            console.log(response);
 			// 对响应数据做点什么
 			return response && response.data ? response.data : response;
 		},
