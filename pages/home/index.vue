@@ -4,7 +4,7 @@
 		<div class="banner">
 			<div class="container">
 				<h1 class="logo-font">realworld</h1>
-				<p>A place to share your knowledge.999</p>
+				<p>A place to share your knowledge.</p>
 			</div>
 		</div>
 		<!-- container -->
